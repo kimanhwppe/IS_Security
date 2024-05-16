@@ -1,0 +1,236 @@
+/* Reset CSS */
+html, body{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    display: block;
+}
+
+*{
+    padding-left: 0;
+}
+
+/* set dafault css */
+body{
+    margin-left: 120px!important;
+    margin-right: 110px!important;
+}
+
+section{
+    padding-bottom: 100px;
+    z-index: 1;
+}
+
+/* header */
+header{
+    background-color: var(--while-color);
+    position: fixed;
+    box-sizing: border-box;
+    height: var(--header-height);
+    width: 100%;
+    padding-right: 120px;
+    padding-top: 6px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px!important;
+    z-index: 999;
+}
+
+header .header-logo{
+    z-index: -1;
+    width: 40%;
+    height: auto;
+}
+
+header .search-product{
+    width: 80%;
+    /* margin-left: 20px; */
+    border-radius: var(--border-radius) 0 0 var(--border-radius);
+    /* padding-left: 20px; */
+    font-size: var(--font-16);
+    height: 100%;
+    padding: 8px 12px;
+    position: relative;
+}
+
+header .search-btn{
+    background-color: var(--primary-color);
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    font-weight: 800;
+    color: var(--while-color);
+    font-size: var(--font-16);  
+    position: absolute;
+}
+
+header .search-bar{
+    height: 40px;
+}
+
+header .search-order-btn a,
+header .login-btn a,
+header .cart-btn a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+header .search-order-btn:hover,
+header .login-btn:hover,
+header .cart-btn:hover{
+    background-color: var(--primary-color);
+    color: var(--while-color);
+}
+
+header .search-order-btn:hover a,
+header .login-btn:hover a,
+header .cart-btn:hover a{
+    color: var(--while-color);
+}
+
+/* footer */
+footer{
+    /* background-color: var(--backgound-color); */
+    background-color: var(--while-color);
+    padding-top: 40px;
+}
+
+footer .service{
+    padding: 16px 120px;
+    /* border-bottom: 1px solid var(--grey-color);
+    border-top: 1px solid var(--grey-color); */
+}
+
+footer .service-title{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+footer .service-content{
+    font-size: 14px;
+    color: var(--text-muted-color);
+    margin-bottom: 0;
+}
+
+
+footer .info{
+    /* margin-top: 50px; */
+    height: 300px;
+    padding: 10px;
+}
+
+footer .info .infor-logo-img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* đoạn này để thay đổi */
+
+.block-1, .block-2, .block-3, .block-4{
+    height: 100%;
+}
+
+.block-5{
+    height: 122px;
+}
+
+footer .info .block-5,
+footer .info .block-2,
+footer .info .block-3,
+footer .info .block-4
+{
+    margin: 10px;
+    background-color: #ccc;
+}
+
+
+/* end đoạn */
+
+footer .license{
+    margin-top: 16px;
+    background-color: var(--grey-color);
+    padding: 10px;
+    text-align: center;
+    font: var(--text-color);
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+footer .license p{
+    margin-bottom: 0;
+}
+
+/* ---------------------------------------------------------------------------- */
+/* Global CSS */
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+}
+
+:root{
+    --while-color: #fff;
+    --black-color: #000;
+    --backgound-color: #F5F5F5;
+    --primary-color: #CD020B;
+    --secondary-color: #6c757d;
+    --grey-color: #D9D9D9;
+    --success-color: #28a745;
+    --info-color: #17a2b8;
+    --warning-color: #ffc107;
+    --danger-color: #dc3545;
+    --text-color: #333;
+    --text-muted-color: #6c757d;
+
+    --header-height: 100px;
+
+    --font-16:16px;
+
+    --border-radius: 10px;
+}
+
+.align-right{
+    text-align: right;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.align-left{
+    text-align: left;
+}
+
+
+.btn{
+    display: inline-block;
+    font-weight: 400;  
+    font-size: 14px;
+}
+
+.flexbox-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexbox-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.pb-8{
+    padding-bottom: 8px;
+}
+
+hr{
+    margin: 0;
+}
+
+.checked {
+    color: #fafe16;
+}
+
