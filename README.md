@@ -1,10 +1,10 @@
 # IS335.O12.HTCL - Security in Information System
 
 ## Thông tin môn học
-* **Môn học:** An toàn thông tin trong hệ thống thông tin
+* **Môn học:** An toàn và bảo mật hệ thống thông tin
 * **Mã môn học:** IS335 
 * **Lớp học:** IS335.O12.HTCL
-* **Năm học:** HKI NH 2022-2023
+* **Năm học:** HKI NH 2023 - 2024
 * **Giảng viên:** ThS. Hà Lê Hoài Trung
 
 ## Thông tin nhóm
